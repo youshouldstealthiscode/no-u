@@ -9,6 +9,7 @@ TO EXECUTE THIS PROGRAM:
 3. Install the necessary packages for this program. Open a terminal or command prompt and run:
 
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client schedule python-dotenv
+
 4. Create a credentials.json file with your Google API client ID and secret, and a .env file with the following line: GMAIL_ADDRESS=your_email_address, replacing your_email_address with your Gmail address. These files should be in the same directory as combined_program.py.
 5. Enable the Gmail API and People API for your Google account. Follow these instructions:
 
